@@ -1,0 +1,79 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Any	../generic_search.py	/^from typing import TypeVar, Iterable, Any, Sequence $/;"	kind:namespace	line:1
+BLOCKED	../maze.py	/^    BLOCKED = 'X'$/;"	kind:variable	line:8
+C	../generic_search.py	/^C = TypeVar('C', bound="Comparable")$/;"	kind:variable	line:12
+Callable	../maze.py	/^from typing import List, NamedTuple, Callable, Optional$/;"	kind:namespace	line:2
+Cell	../maze.py	/^class Cell(str, Enum):$/;"	kind:class	line:6
+Comparable	../generic_search.py	/^class Comparable(Protocol):$/;"	kind:class	line:14
+CompressedGene	../simple_compression.py	/^class CompressedGene:$/;"	kind:class	line:3
+Dict	../fibonacci.py	/^from typing import Dict$/;"	kind:namespace	line:28
+EMPTY	../maze.py	/^    EMPTY = ' '$/;"	kind:variable	line:7
+Enum	../maze.py	/^from enum import Enum, IntEnum$/;"	kind:namespace	line:1
+GOAL	../maze.py	/^    GOAL = 'G'$/;"	kind:variable	line:10
+Generator	../fibonacci.py	/^from typing import Generator$/;"	kind:namespace	line:84
+Generic	../towers_of_hanoi.py	/^from typing import TypeVar, List, Generic$/;"	kind:namespace	line:8
+IntEnum	../maze.py	/^from enum import Enum, IntEnum$/;"	kind:namespace	line:1
+Iterable	../generic_search.py	/^from typing import TypeVar, Iterable, Any, Sequence $/;"	kind:namespace	line:1
+List	../maze.py	/^from typing import List, NamedTuple, Callable, Optional$/;"	kind:namespace	line:2
+List	../towers_of_hanoi.py	/^from typing import TypeVar, List, Generic$/;"	kind:namespace	line:8
+Maze	../maze.py	/^class Maze:$/;"	kind:class	line:19
+MazeLocation	../maze.py	/^class MazeLocation(NamedTuple):$/;"	kind:class	line:14
+NamedTuple	../maze.py	/^from typing import List, NamedTuple, Callable, Optional$/;"	kind:namespace	line:2
+Optional	../maze.py	/^from typing import List, NamedTuple, Callable, Optional$/;"	kind:namespace	line:2
+PATH	../maze.py	/^    PATH = '*'$/;"	kind:variable	line:11
+Protocol	../generic_search.py	/^from typing_extensions import Protocol$/;"	kind:namespace	line:2
+START	../maze.py	/^    START = 'S'$/;"	kind:variable	line:9
+Sequence	../generic_search.py	/^from typing import TypeVar, Iterable, Any, Sequence $/;"	kind:namespace	line:1
+Stack	../towers_of_hanoi.py	/^class Stack(Generic[T]):$/;"	kind:class	line:12
+T	../generic_search.py	/^T = TypeVar('T')$/;"	kind:variable	line:4
+T	../towers_of_hanoi.py	/^T = TypeVar("T")$/;"	kind:variable	line:10
+Tuple	../simple_encryption.py	/^from typing import Tuple$/;"	kind:namespace	line:2
+TypeVar	../generic_search.py	/^from typing import TypeVar, Iterable, Any, Sequence $/;"	kind:namespace	line:1
+TypeVar	../towers_of_hanoi.py	/^from typing import TypeVar, List, Generic$/;"	kind:namespace	line:8
+__eq__	../generic_search.py	/^    def __eq__(self, other: Any) -> bool:$/;"	kind:member	line:15
+__ge__	../generic_search.py	/^    def __ge__(self: C, other: C) -> bool: $/;"	kind:member	line:27
+__gt__	../generic_search.py	/^    def __gt__(self: C, other: C) -> bool: $/;"	kind:member	line:21
+__init__	../maze.py	/^    def __init__(self, rows: int = 10, columns: int = 10, sparseness: float = 0.2, start: MazeLocation = MazeLocation(0, 0), goal: MazeLocation = MazeLocation(9, 9)) -> None:$/;"	kind:member	line:20
+__init__	../simple_compression.py	/^    def __init__(self, gene: str) -> None:$/;"	kind:member	line:4
+__init__	../towers_of_hanoi.py	/^    def __init__(self) -> None:$/;"	kind:member	line:13
+__le__	../generic_search.py	/^    def __le__(self: C, other: C) -> bool: $/;"	kind:member	line:24
+__lt__	../generic_search.py	/^    def __lt__(self: C, other: C) -> bool: $/;"	kind:member	line:18
+__repr__	../towers_of_hanoi.py	/^    def __repr__(self) -> str:$/;"	kind:member	line:22
+__str__	../maze.py	/^    def __str__(self) -> str:$/;"	kind:member	line:36
+__str__	../simple_compression.py	/^    def __str__(self) -> str:$/;"	kind:member	line:38
+_compress	../simple_compression.py	/^    def _compress(self, gene: str) -> None:$/;"	kind:member	line:7
+_randomly_fill	../maze.py	/^    def _randomly_fill(self, rows: int, columns: int, spaseness: float) -> None:$/;"	kind:member	line:30
+binary_search	../generic_search.py	/^def binary_search(sequence: Sequence[C], key: C) -> bool: $/;"	kind:function	line:30
+calculate_pi	../calculating_pi.py	/^def calculate_pi(n_terms: int) -> float:$/;"	kind:function	line:3
+calculating_pi.py	../calculating_pi.py	1;"	kind:file	line:1
+decompress	../simple_compression.py	/^    def decompress(self) -> str:$/;"	kind:member	line:22
+decrypt	../simple_encryption.py	/^def decrypt(key1: int, key2: int) -> str:$/;"	kind:function	line:24
+encrypt	../simple_encryption.py	/^def encrypt(original: str) -> Tuple[int, int]:$/;"	kind:function	line:17
+fib1	../fibonacci.py	/^def fib1(n: int) -> int:$/;"	kind:function	line:3
+fib2	../fibonacci.py	/^def fib2(n: int) -> int: $/;"	kind:function	line:10
+fib3	../fibonacci.py	/^def fib3(n: int) -> int: $/;"	kind:function	line:35
+fib4	../fibonacci.py	/^def fib4(n: int) -> int:$/;"	kind:function	line:51
+fib5	../fibonacci.py	/^def fib5(n: int) -> int: $/;"	kind:function	line:63
+fib6	../fibonacci.py	/^def fib6(n: int) -> Generator[int, None, None]: $/;"	kind:function	line:86
+fibonacci.py	../fibonacci.py	1;"	kind:file	line:1
+generic_search.py	../generic_search.py	1;"	kind:file	line:1
+getsizeof	../simple_compression.py	/^    from sys import getsizeof$/;"	kind:namespace	line:42
+hanoi	../towers_of_hanoi.py	/^def hanoi(begin: Stack[int], end: Stack[int], temp: Stack[int], n: int) -> None:$/;"	kind:function	line:25
+img_encryption.py	../img_encryption.py	1;"	kind:file	line:1
+linear_search	../generic_search.py	/^def linear_search(iterable: Iterable[T], key: T) -> bool:$/;"	kind:function	line:6
+lru_cache	../fibonacci.py	/^from functools import lru_cache$/;"	kind:namespace	line:48
+maze.py	../maze.py	1;"	kind:file	line:1
+pop	../towers_of_hanoi.py	/^    def pop(self) -> T:$/;"	kind:member	line:19
+push	../towers_of_hanoi.py	/^    def push(self, item: T) -> None:$/;"	kind:member	line:16
+random	../maze.py	/^import random$/;"	kind:namespace	line:3
+random_key	../simple_encryption.py	/^def random_key(length: int) -> int:$/;"	kind:function	line:4
+simple_compression.py	../simple_compression.py	1;"	kind:file	line:1
+simple_encryption.py	../simple_encryption.py	1;"	kind:file	line:1
+sqrt	../maze.py	/^from math import sqrt$/;"	kind:namespace	line:4
+token_bytes	../simple_encryption.py	/^from secrets import token_bytes$/;"	kind:namespace	line:1
+towers_of_hanoi.py	../towers_of_hanoi.py	1;"	kind:file	line:1
